@@ -20,8 +20,8 @@ function App(){
     
       <div>
         <Greeting name="Davon" />
-        <UserInfo name="LeBron"
-                  job="NBA Player" 
+        <UserInfo name="Davon"
+                  job="Systems Administrator" 
                   handleClick={handleAlert}/>
         <TaskComponent />
       </div>
