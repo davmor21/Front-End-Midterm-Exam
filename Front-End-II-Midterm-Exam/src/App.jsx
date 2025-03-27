@@ -4,7 +4,6 @@ import UserInfo from './UserInfo';
 import TaskComponent from './TaskComponent';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
-import handleAlert from './handleAlert';
 
 function App(){
   return (
@@ -21,8 +20,7 @@ function App(){
       <div>
         <Greeting name="Davon" />
         <UserInfo name="Davon"
-                  job="Systems Administrator" 
-                  handleClick={handleAlert}/>
+                  job="Systems Administrator" />
         <TaskComponent />
       </div>
     </>
