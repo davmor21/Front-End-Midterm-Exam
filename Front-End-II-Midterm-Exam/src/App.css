@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+#TaskSearchDiv {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* adds space between the h3 and input */
+  padding-top: 20px;
+}
+
+#TaskSearchDiv h3 {
+  margin: 0; /* remove extra spacing */
+}
+
+#TaskSearchDiv input {
+  padding: 6px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#TaskSearchDiv input {
+  flex-grow: 1; /* will expand to fill space */
+  max-width: 300px;
+}

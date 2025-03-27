@@ -25,9 +25,7 @@ function App(){
         <UserInfo name="LeBron"
                   job="NBA Player" 
                   handleClick={handleAlert}/>
-        <Counter />
         <TaskComponent />
-        <TaskForm />
       </div>
     </>
   )
