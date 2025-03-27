@@ -10,7 +10,6 @@ function DigitalClock(){
         return () => clearInterval(intervalID);
     }, []);
     const formattedDate = time.toLocaleDateString();
-    // const formattedTime = time.toLocaleTimeString();
     return(
         <>
             <p style={{color: "dodgerblue"}}>

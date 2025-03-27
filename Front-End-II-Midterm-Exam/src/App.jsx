@@ -2,11 +2,9 @@ import './App.css'
 import Greeting from './Greeting';
 import UserInfo from './UserInfo';
 import TaskComponent from './TaskComponent';
-import Counter from './Counter';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import handleAlert from './handleAlert';
-import TaskForm from './TaskForm';
 
 function App(){
   return (

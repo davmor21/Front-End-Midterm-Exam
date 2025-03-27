@@ -1,4 +1,4 @@
-import {Component, useState} from 'react'
+import {useState} from 'react'
 
 function UserInfo(props){
     const [random, setRandom] = useState(Math.floor(Math.random() * 10));
